@@ -7,8 +7,9 @@ class Led {
     byte pin;
     
   public:
-    Led(byte pin);
+    Led();
     void init();
+    void setPin(byte pin);
     void on();
     void off();
 };
